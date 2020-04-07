@@ -70,7 +70,7 @@ Interface::Interface() {
     box = new Fl_Box(0, 0, WIDTH, 35, guessWord.c_str());
     box->box(FL_UP_BOX);
     input = new Fl_Input(100, 250, 200, 30);
-    button = new Fl_Button(310, 250, 50, 30, "Enter");
+    button = new Fl_Return_Button(310, 250, 70, 30, "Enter");
     button->callback(static_button_CB, this);
     window->add(display);
 }

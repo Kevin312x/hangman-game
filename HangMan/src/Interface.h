@@ -4,6 +4,7 @@
 #include <FL/Fl_Window.H>
 #include <FL/Fl_Box.H>
 #include <FL/Fl_Button.H>
+#include <FL/Fl_Return_Button.H>
 #include <FL/Fl_Input.H>
 #include <FL/Fl_Widget.H>
 #include <FL/fl_draw.H>
@@ -38,7 +39,7 @@ private:
     Fl_Window* window;
     Fl_Box* box;
     Fl_Input* input;
-    Fl_Button* button;
+    Fl_Return_Button* button;
 
     static void static_button_CB(Fl_Widget* w, void* data);
     void real_button_CB(Fl_Widget* w);
